@@ -1,0 +1,86 @@
+body{
+    margin: auto;
+    max-width: 500px;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+    background-color: #ECA400;
+    color: #EAF8BF;
+}
+
+#instruction{
+    background-color: #C1AE9F;
+    height: 350px;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    max-width: 350px;
+    color: #89937C;
+}
+
+#goalBack{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: #8CD790;
+    margin: 10px;
+    padding: 10px;
+}
+
+h3{
+    font-size: 30px;
+    color: #AAFCB8;
+}
+
+#scoreBoard{
+    float: left;
+    height: 200px;
+    width: 200px;
+    background-color: #8D99AE;
+    margin: 10px;
+    padding: 10px;
+}
+
+h2{
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #EDF2F4;
+}
+
+#scoreBtn{
+    float: left;
+    width: 100%;
+}
+
+.btn{
+    height: 60px;
+    width: 60px;
+    margin-bottom: 20px;
+    /* margin-right: 20px; */
+}
+
+#but1{
+    background-color: red;
+}
+
+#but2{
+    background-color: blue;
+}
+
+#but3{
+    background-color: green;
+}
+
+#but4{
+    background-color: purple;
+}
+
+#last{
+    float: left;
+    background-color: #EF233C;
+    width: 50%;
+}

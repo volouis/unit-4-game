@@ -7,35 +7,48 @@
     <title>Unit-4-Game</title>
     <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 <body>
     <h1>Crystals Collectors!</h1>
 
-    <p>You will be given a random number at the start of the game</p>
-    <p>There are four crystals below. By clicking on a crystal 
-        you will a specific amount of points to your total score.
-    </p>
-    <p>You win the game by matching your total score to random number, 
-        you lose the game if your total score goes above the random number.
-    </p>    
-    <p>the value of each crystal is hidden from you until you click on it.</p>
-    <p>Each time when the game starts, the game will change the values
-        of each crystal
-    </p>
+    <div id="instruction">
+        <p>You will be given a random number at the start of the game</p>
+        <p>There are four crystals below. By clicking on a crystal 
+            you will a specific amount of points to your total score.
+        </p>
+        <p>You win the game by matching your total score to random number, 
+            you lose the game if your total score goes above the random number.
+        </p>    
+        <p>the value of each crystal is hidden from you until you click on it.</p>
+        <p>Each time when the game starts, the game will change the values
+            of each crystal
+        </p>
+    </div>
 
-    <h3 id="ranNum"></h3>
+    <div id="goalBack">
+        <h3 id="ranNum"></h3>
+    </div>
 
-    <h2>Wins:</h2>
-    <h2>Losses:</h2>
-    
-    <button id="but1"></button>
-    <button id="but2"></button>
-    <button id="but3"></button>
-    <button id="but4"></button>
+    <div id="scoreBoard">
+        <h2>Wins: <span id="win"></span></h2>
+        <h2>Losses: <span id="lose"></span></h2>
+    </div>
 
-    <h2>Your total score is:</h2>
+    <div id="scoreBtn">
+        <button id="but1" class="btn"></button>
+        <button id="but2" class="btn"></button>
+        <button id="but3" class="btn"></button>
+        <button id="but4" class="btn"></button>
+    </div>
 
-    <h3 id="score"></h3>
+    <div id="last">
+        <h2>Your total score is:</h2>
+
+        <h3 id="score"></h3>
+    </div>
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
 
 
 </body>
